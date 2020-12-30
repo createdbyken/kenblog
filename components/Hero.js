@@ -1,0 +1,19 @@
+export default function Hero({portfolio}){
+    return(
+        <div className="py-20 hero-stn_12">
+            <div className="container mx-auto px-6 text-center">
+                <h2 className="text-4xl mb-2 black-white l-font_ppns">
+                    Ken Sanchez
+                </h2>
+                <h5 className="text-xl mb-8 text-gray-400">
+                    Software Engineer - Web Developer
+                </h5>                
+            </div>
+            <div class="flex items-center ">
+                <svg className="animate-bounce w-6 h-6 text-gray-900" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
+                    <path d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+                </svg>
+            </div>
+        </div>
+    )
+}
