@@ -10,11 +10,25 @@ export default function Home({ allPostsData }) {
 	return (
 		<>
 			<Hero></Hero>
-			
+
 			<section className="container mx-auto px-6 p-10">
 				<div className="flex items-center flex-wrap mb-20">
 					<div className="w-full md:w-1/2">
-						<h1 className="md:text-9xl text-gray-800 mb-3 trns_text_blk">BACK<br/>END</h1>
+						<h1 className="text-5xl text-gray-800 mb-3">✌🏼 ¡Hola! Soy Ken, </h1>
+						<p>
+						soy un Fullstack developer y actualmente vivo en la Ciudad de México. Empecé a programar cuando tenía 15 años, recuerdo que mi primer lenguaje de programación fue Ruby y posteriormente python, la verdad no entendía mucho pero me encantaba hacer pequeños programas y esa curiosidad fué creciendo cada vez más.
+						</p>
+					</div>
+					
+					<div className="w-full md:w-1/2">
+						
+					</div>
+				</div>
+
+
+				<div className="flex items-center flex-wrap mb-20">
+					<div className="w-full md:w-1/2">
+						<h1 className="text-9xl text-gray-800 mb-3 trns_text_blk">BACK<br/>END</h1>
 					</div>
 					<div className="w-full md:w-1/2">
 						<p>
@@ -34,7 +48,7 @@ export default function Home({ allPostsData }) {
 						</p>
 					</div>
 					<div className="w-full md:w-1/2">
-						<h1 className="md:text-9xl text-gray-800 mb-3 trns_text_wht">FRONT<br/>END</h1>
+						<h1 className="text-9xl text-gray-800 mb-3 trns_text_wht">FRONT<br/>END</h1>
 					</div>
 				</div>
 			</section>
