@@ -20,15 +20,16 @@ export default function Home({ allPostsData }) {
 						</p>
 					</div>
 					
-					<div className="w-full md:w-1/2">
-						
+					<div className="w-full md:w-1/2 bg-black">
 					</div>
 				</div>
 
 
 				<div className="flex items-center flex-wrap mb-20">
 					<div className="w-full md:w-1/2">
-						<h1 className="text-9xl text-gray-800 mb-3 trns_text_blk">BACK<br/>END</h1>
+						<p className="lg:text-9xl text-8xl text-gray-800 mb-3 trns_text_blk">
+							BACK<br/>END
+						</p>
 					</div>
 					<div className="w-full md:w-1/2">
 						<p>
@@ -48,7 +49,9 @@ export default function Home({ allPostsData }) {
 						</p>
 					</div>
 					<div className="w-full md:w-1/2">
-						<h1 className="text-9xl text-gray-800 mb-3 trns_text_wht">FRONT<br/>END</h1>
+						<p className="lg:text-9xl text-8xl text-gray-800 mb-3 trns_text_blk">
+							FRONT<br/>END
+						</p>
 					</div>
 				</div>
 			</section>
