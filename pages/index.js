@@ -49,7 +49,7 @@ export default function Home({ allPostsData }) {
 						</p>
 					</div>
 					<div className="w-full md:w-1/2">
-						<p className="lg:text-9xl text-8xl text-gray-800 mb-3 trns_text_blk">
+						<p className="lg:text-9xl text-8xl mb-3 trns_text_wht">
 							FRONT<br/>END
 						</p>
 					</div>
