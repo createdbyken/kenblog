@@ -54,7 +54,7 @@ export default function Header(){
 							</a>
 						</Link>
 
-						<Link href="/">
+						<Link href="/contacto">
 							<a className="text-base font-medium text-gray-500 hover:text-gray-900">
 								Contacto
 							</a>
