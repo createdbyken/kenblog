@@ -45,6 +45,15 @@ img {
   display: block;
 }
 
+.devIconStyleBlk{
+  color: black;
+  font-size: 70px;
+}
+
+.devIconStyleWht{
+  color: white;
+  font-size: 70px;
+}
 
 .iframe-responsive{
   overflow:hidden;
