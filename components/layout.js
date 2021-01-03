@@ -1,10 +1,7 @@
 import Head from 'next/head'
-import styles from './layout.module.css'
-import Link from 'next/link'
 
 export const siteTitle = 'Ken Sanchez | Senior Backend Developer '
-
-export default function Layout({ children, home }) {
+export default function Layout({ children }) {
   return (
     <>
       <Head>

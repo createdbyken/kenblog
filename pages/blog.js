@@ -2,9 +2,10 @@ import utilStyles from '../styles/utils.module.css'
 import { getSortedPostsData } from '../lib/posts'
 import Link from 'next/link'
 import Date from '../components/date'
-
+import Layout from '../components/layout'
 export default function Blog({ allPostsData }){
     return (
+        
         <section className="container mx-auto px-6 p-10">
             <div className="grid grid-cols-3 gap-4">
                 {allPostsData.map(({ id, date, title }) => (

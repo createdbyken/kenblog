@@ -7,7 +7,7 @@ export default function Skills(){
                         <h1 className="text-5xl text-gray-800 mb-3">✌🏼 ¡Hola! Soy Ken, </h1>
                         <p>
                             soy un Fullstack developer y actualmente trabajo <a target="_blank" href="https://kingtide.com" className="cursor-pointer">@kingtide</a> 🌊.
-                        Empecé a programar cuando tenía 15 años, recuerdo que mi primer lenguaje de programación fue Ruby 💎 y posteriormente python 🐍. Tengo 23 años, soy Méxicano 🇲🇽 y vivo en <a href="" className="cursor-pointer">Tepoztlán, Morelos</a> ⛰. Mi pasión es ayudar a starups a crear plataformas web escalables y arquitectura solidas. ⛵️
+                        Empecé a programar cuando tenía 15 años, recuerdo que mi primer lenguaje de programación fue Ruby 💎 y posteriormente python 🐍. Tengo 23 años, soy Méxicano 🇲🇽 y vivo en <a href="javascript:;" className="cursor-pointer">Tepoztlán, Morelos</a> ⛰. Mi pasión es ayudar a starups a crear plataformas web escalables y arquitectura solidas. ⛵️
                         </p>
                     </div>
 
