@@ -12,7 +12,7 @@ export default function Home({ allPostsData }) {
 			<Hero></Hero>
 
 			<section className="container mx-auto px-6 p-10">
-				<div className="flex items-center flex-wrap my-40">
+				<div className="flex items-center flex-wrap my-32">
 					<div className="w-full md:w-1/2">
 						<h1 className="text-5xl text-gray-800 mb-3">✌🏼 ¡Hola! Soy Ken, </h1>
 						<p>
@@ -31,12 +31,12 @@ export default function Home({ allPostsData }) {
 				</div>
 
 				<div className="flex items-center flex-wrap my-40">
-					<div className="w-full md:w-1/2">
+					<div className="w-full md:w-1/2 px-4">
 						<p 
 							className="text-7xl md:text-8xl lg:text-9xl text-gray-800 mb-3 trns_text_blk">
 							BACK<br />END
 						</p>
-						<div className="grid grid-cols-2 lg:grid-cols-3 gap-3 mt-3">
+						<div className="grid grid-cols-3 lg:grid-cols-3 gap-3 mt-10">
 							<div><i className="devicon-ruby-plain devIconStyleBlk"></i></div>
 							<div><i className="devicon-python-plain devIconStyleBlk"></i></div>
 							<div><i className="devicon-rails-plain devIconStyleBlk"></i></div>
@@ -45,7 +45,7 @@ export default function Home({ allPostsData }) {
 							<div><i className="devicon-java-plain devIconStyleBlk"></i></div>
 						</div>
 					</div>
-					<div className="w-full md:w-1/2">
+					<div className="w-full md:w-1/2 px-6">
 						<p className="text-black text-2xl">
 							Mi pasión por el backend comenzó a inicios de mis primeros años como developer. Diariamente me empujo a nuevas habilidades y retos que me ayudarán a ser un mejor Backend developer.
 						</p>
@@ -54,16 +54,16 @@ export default function Home({ allPostsData }) {
 			</section>
 
 			<div className="flex items-center flex-wrap min-w-full bg-black">
-				<div className="w-full md:w-1/2 order-last">
-					<p className="text-white mx-8 text-2xl">
+				<div className="w-full md:w-1/2 order-last px-6">
+					<p className="text-white text-2xl mt-10 mb-10">
 						A lo largo de mi carrera he usado estas tecnologías de forma general en el desarrollo de proyectos con empresas. Complementar estas tecnologías con el modelo Backend me ha ayudado a tener habilidades más sólidas.
 					</p>
 				</div>
-				<div className="w-full md:w-1/2 mb-20 md:order-last">
-					<p className="text-7xl md:text-8xl lg:text-9xl mb-3 trns_text_wht">
+				<div className="w-full md:w-1/2 md:order-last px-4">
+					<p className="text-7xl md:text-8xl lg:text-9xl mb-3 mt-10 trns_text_wht ">
 						FRONT<br />END
 					</p>
-					<div className="grid grid-cols-2 lg:grid-cols-3 gap-3 mt-3">
+					<div className="grid grid-cols-3 lg:grid-cols-3 gap-3 mt-10 mb-10">
 						<div><i className="devicon-html5-plain devIconStyleWht"></i></div>
 						<div><i className="devicon-css3-plain devIconStyleWht"></i></div>
 						<div><i className="devicon-javascript-plain devIconStyleWht"></i></div>
