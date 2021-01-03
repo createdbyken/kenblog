@@ -6,9 +6,14 @@ export const siteTitle = 'Ken Sanchez | Senior Backend Developer '
 
 export default function Layout({ children, home }) {
   return (
-    <div className={styles.container}>
+    <>
       <Head>
         <link rel="icon" href="/favicon.ico" />
+        <link
+          rel="stylesheet"
+          href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.8.0/devicon.min.css"
+
+        />
         <meta
           name="description"
           content="Ken Sanchez | Ruby on Rails Full Stack Developer"
@@ -32,6 +37,6 @@ export default function Layout({ children, home }) {
           </Link>
         </div>
       )}
-    </div>
+    </>
   )
 }
