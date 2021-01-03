@@ -1,33 +1,35 @@
 export default function Footer(){
     return (
-        <footer class="flex items-center px-8 py-0 mx-auto bg-gray-100 md:px-8 md:py-4 md:flex-row">
+        <footer className=" flex flex-col px-8 py-0 bg-gray-200 md:px-8 md:py-4 md:flex-row justify-center items-center">
             <a
-                href="https://github.com/chepetime"
-                class="px-3 py-3 mb-4 text-center text-gray-600 transition-colors duration-500 ease-in-out rounded-lg md:mr-4 md:ml-0 md:bg-gray-100 text-md md:text-md md:p-3 hover:bg-gray-300"
+                href="https://github.com/mau5ken"
+                className="px-3 py-3 mb-4 text-center text-gray-600 transition-colors duration-500 ease-in-out rounded-lg md:mr-4 md:ml-0 text-md md:text-md md:p-3"
                 target="_blank"
             >
-                Github
+                <i className="devicon-twitter-original"></i>
+
             </a>
             <a
-                href="https://linkedin.com/in/jos%C3%A9-manuel-gulias-lugo-03454356/"
-                class="px-3 py-3 mb-4 text-center text-gray-600 transition-colors duration-500 ease-in-out rounded-lg md:mr-4 md:ml-0 md:bg-gray-100 text-md md:text-md md:p-3 hover:bg-gray-300"
+                href="https://www.linkedin.com/in/kenrric-garcia/"
+                className="px-3 py-3 mb-4 text-center text-gray-600 transition-colors duration-500 ease-in-out rounded-lg md:mr-4 md:ml-0 text-md md:text-md md:p-3"
                 target="_blank"
             >
-                LinkedIn
+                <i className="devicon-linkedin-plain"></i>
+
             </a>
             <a
-                href="https://instagram.com/chepe/"
-                class="px-3 py-3 mb-4 text-center text-gray-600 transition-colors duration-500 ease-in-out rounded-lg md:mr-4 md:ml-0 md:bg-gray-100 text-md md:text-md md:p-3 hover:bg-gray-300"
+                href="https://instagram.com/theken5/"
+                className="px-3 py-3 mb-4 text-center text-gray-600 transition-colors duration-500 ease-in-out rounded-lg md:mr-4 md:ml-0 text-md md:text-md md:p-3"
                 target="_blank"
             >
-                Instagram
+                <img style={{height: "20px"}} src="https://res.cloudinary.com/craftwebs/image/upload/v1609704913/instagram-crl_kdfjsy.svg" alt="instagram"></img>
             </a>
             <a
-                href="https://twitter.com/Chepe"
-                class="px-3 py-3 mb-4 text-center text-gray-600 transition-colors duration-500 ease-in-out rounded-lg md:mr-4 md:ml-0 md:bg-gray-100 text-md md:text-md md:p-3 hover:bg-gray-300"
+                href="https://twitter.com/us3rGuy"
+                className="px-3 py-3 mb-4 text-center text-gray-600 transition-colors duration-500 ease-in-out rounded-lg md:mr-4 md:ml-0 text-md md:text-md md:p-3"
                 target="_blank"
             >
-            Twitter
+            <i className="devicon-twitter-original"></i>
         </a>
         </footer>
     )
