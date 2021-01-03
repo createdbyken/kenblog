@@ -6,7 +6,7 @@ export default function Hero({portfolio}){
                     Ken Sanchez
                 </h2>
                 <h5 className="text-xl mb-8 text-gray-400">
-                    Software Engineer >_ Web Developer
+                    Software Engineer _ Web Developer
                 </h5>                
             </div>
             <div className="grid justify-items-center">
