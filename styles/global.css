@@ -1,13 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu,
-    Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'Poppins', sans-serif;
   line-height: 1.6;
   font-size: 18px;
 }
@@ -24,8 +23,48 @@ a {
 a:hover {
   text-decoration: underline;
 }
+.l-font_ppns{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 200;
+}
+
+.trns_text_wht{
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(255, 255, 255);
+  color: transparent !important;
+}
+
+.trns_text_blk{
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(0, 0, 0);
+  color: transparent !important;
+}
 
 img {
   max-width: 100%;
   display: block;
+}
+
+.devIconStyleBlk{
+  color: black;
+  font-size: 70px;
+}
+
+.devIconStyleWht{
+  color: white;
+  font-size: 70px;
+}
+
+.iframe-responsive{
+  overflow:hidden;
+  padding-bottom: 53rem;
+  position:relative;
+  height:0;
+}
+.iframe-responsive iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
 }
