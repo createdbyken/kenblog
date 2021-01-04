@@ -1,18 +1,15 @@
 import Head from 'next/head'
-import styles from './layout.module.css'
-import Link from 'next/link'
 
 export const siteTitle = 'Ken Sanchez | Senior Backend Developer '
-
-export default function Layout({ children, home }) {
+export default function Layout({ children }) {
   return (
     <>
       <Head>
+        <title>{siteTitle}</title>
         <link rel="icon" href="/favicon.ico" />
         <link
           rel="stylesheet"
           href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.8.0/devicon.min.css"
-
         />
         <meta
           name="description"
