@@ -5,7 +5,7 @@ export default function Hero({portfolio}){
                 <h2 className="text-4xl mb-2 black-white l-font_ppns">
                     Ken Sanchez
                 </h2>
-                <h5 className="text-xl mb-8 text-gray-400">
+                <h5 className="text-xl mb-8 text-gray-500">
                     Software Engineer _ Web Developer
                 </h5>                
             </div>

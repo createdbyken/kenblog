@@ -1,4 +1,3 @@
-import utilStyles from '../styles/utils.module.css'
 import { getSortedPostsData } from '../lib/posts'
 import Link from 'next/link'
 import Date from '../components/date'
@@ -27,7 +26,7 @@ export default function Home({ allPostsData }) {
 										<a className="text-xl antialiased text-gray-700	my-14">{title}</a>
 									</Link>
 									<br />
-									<small className={utilStyles.lightText}>
+									<small className="antialiased text-gray-600">
 										<Date dateString={date} />
 									</small>
 								</div>
