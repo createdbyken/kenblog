@@ -8,7 +8,7 @@ export default function Footer(){
                 target="_blank"
                 rel="noopener"
             >
-                <i className="devicon-twitter-original"></i>
+                <i className="devicon-twitter-original" aria-label="Github"></i>
 
             </a>
             <a
@@ -17,7 +17,7 @@ export default function Footer(){
                 target="_blank"
                 rel="noopener"
             >
-                <i className="devicon-linkedin-plain"></i>
+                <i className="devicon-linkedin-plain" aria-label="linkedin"></i>
 
             </a>
             <a
@@ -34,7 +34,7 @@ export default function Footer(){
                 target="_blank"
                 rel="noopener"
             >
-            <i className="devicon-twitter-original"></i>
+            <i className="devicon-twitter-original" aria-label="Twitter"></i>
         </a>
         </footer>
     )
