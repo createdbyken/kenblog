@@ -5,11 +5,11 @@ export default function Layout({ children }) {
   return (
     <>
       <Head>
+        <title>{siteTitle}</title>
         <link rel="icon" href="/favicon.ico" />
         <link
           rel="stylesheet"
           href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.8.0/devicon.min.css"
-
         />
         <meta
           name="description"
