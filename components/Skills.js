@@ -20,7 +20,6 @@ export default function Skills(){
                                 className="md:object-scale-down md:h-96 md:w-96"
                                 alt="ken sanchez "
                             />
-                            
                         </div>
                     </div>
                 </section>
