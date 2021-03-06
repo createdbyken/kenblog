@@ -53,7 +53,7 @@ export default function Skills(){
             
             <Fade bottom>
                 <section className="mx-auto">
-                    <div className="flex items-center flex-wrap min-w-full bg-black my-32">
+                    <div className="flex items-center flex-wrap min-w-full bg-black mt-32">
                         <div className="w-full md:w-1/2 order-last px-6">
                             <p className="text-white text-2xl mt-10 mb-10">
                                 A lo largo de mi carrera he usado estas tecnologías de forma general en el desarrollo de proyectos con empresas. Complementar estas tecnologías con el modelo Backend me ha ayudado a tener habilidades más sólidas.
