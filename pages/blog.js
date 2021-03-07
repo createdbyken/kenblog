@@ -11,7 +11,6 @@ function urlFor (source) {
 
 const Blog = (props) => {
     const { posts = [] } = props
-	console.log(props)
     return (
 		<>		
             <div className="container mx-auto px-6 text-center py-20">
