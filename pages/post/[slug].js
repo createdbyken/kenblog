@@ -5,6 +5,12 @@ import client from '../../client'
 import Layout from '../../components/layout'
 import utilStyles from '../../styles/utils.module.css'
 import styles from '../../components/layout.module.css'
+import SyntaxHighlighter from 'react-syntax-highlighter';
+import { atomOneDarkReasonable } from 'react-syntax-highlighter/dist/cjs/styles/hljs';
+
+
+
+
 
 function urlFor (source) {
     return imageUrlBuilder(client).image(source)
@@ -19,6 +25,18 @@ const Post = (props) =>  {
             mainImage,
             body = []
         } = props
+
+        const serializers = {
+            types: {
+              code: props => (
+                <SyntaxHighlighter data-language={props.node.language}  style={atomOneDarkReasonable}>
+                  {props.node.code}
+                </SyntaxHighlighter>
+              )
+            }
+          }
+
+        console.log(props)
     return (
         <Layout>
             <article>
@@ -37,9 +55,10 @@ const Post = (props) =>  {
                         </ul>
                     )}
                     <BlockContent                
-                        blocks={body}
-                        imageOptions={{fit: 'max'}}
-                        {...client.config()}
+                         blocks={body}
+                         imageOptions={{fit: 'max'}}
+                         {...client.config()}
+                         serializers={serializers}
                     />
                 </div>
             </article>
