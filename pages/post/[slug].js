@@ -68,7 +68,7 @@ const Post = (props) =>  {
                     {authorImage && (
                             <div>
                                 <img 
-                                className="w-32 h-32 md:w-48 md:h-auto md:rounded-none rounded-full mx-auto"
+                                className="w-32 h-32 md:w-48 md:h-auto md:rounded-none rounded-full mx-auto object-cover"
                                 width="300"
                                 height="300"
                                 alt={name}
@@ -77,7 +77,7 @@ const Post = (props) =>  {
                                 />
                             </div>
                         )}
-                    <div className="pt-6 md:p-8 text-center md:text-left space-y-4">
+                    <div className="md:pt-20 md:p-8 text-center md:text-left space-y-4">
                         <figcaption className="font-medium">
                             <div className="text-cyan-600">
                                 <span>Escrito por {name}</span>
