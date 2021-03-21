@@ -12,7 +12,6 @@ function urlFor (source) {
 const Index = (props) => {
     const { posts = [] } = props
 	const options = {year: "numeric", month: "short", day: "numeric"};
-	console.log(props)
     return (
 		<>
 			<Hero></Hero>	
@@ -35,6 +34,7 @@ const Index = (props) => {
 														className="rounded-t-lg cursor-pointer object-fill h-48 w-full" 
 														alt={mainImage}
 														src={urlFor(mainImage)
+														.dpr(1)
 														.url()}
 													/>
 												</Link>
