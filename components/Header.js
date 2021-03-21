@@ -39,11 +39,7 @@ export default function Header(){
 										Blog
 									</a>
 								</Link>
-								<Link href="/portfolio">
-									<a className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
-										Portfolio
-									</a>
-								</Link>
+								
 								<Link href="/contacto">
 									<a className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
 										Contacto
@@ -69,11 +65,7 @@ export default function Header(){
 							Blog
 						</a>
 					</Link>
-					<Link href="/portfolio">
-						<a className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
-							Portfolio
-						</a>
-					</Link>
+					
 					<Link href="/contacto">
 						<a className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
 							Contacto
