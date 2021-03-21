@@ -21,13 +21,13 @@ const companies = [
   },
   {
     title: "Joon",
-    img: "https://shrinktheweb.snapito.io/v2/webshot/spu-ea68c8-ogi2-3cwn3bmfojjlb56e?size=mc&screen=1024x768&url=https%3A%2F%2Fjoon.io",
+    img: "https://api.microlink.io?url=https%3A%2F%2Fjoon.io&screenshot=true&meta=false&embed=screenshot.url",
     link: "https://joon.io",
     id: 4
   },
   {
     title: "Distruibuidora Kikey",
-    img: "https://shrinktheweb.snapito.io/v2/webshot/spu-ea68c8-ogi2-3cwn3bmfojjlb56e?size=mc&screen=1024x768&url=https%3A%2F%2Fdistribuidorakikey.com.mx%2F",
+    img: "https://api.microlink.io?url=https%3A%2F%2Fdistribuidorakikey.com.mx&screenshot=true&meta=false&embed=screenshot.url",
     link: "https://distribuidorakikey.com.mx",
     id: 5
   },
@@ -39,7 +39,7 @@ const companies = [
   },
   {
     title: "Great & Mini",
-    img: "https://shrinktheweb.snapito.io/v2/webshot/spu-ea68c8-ogi2-3cwn3bmfojjlb56e?size=mc&screen=1024x768&url=https%3A%2F%2Fgreat-mini.mx%2F",
+    img: "https://shrinktheweb.snapito.io/v2/webshot/spu-ea68c8-ogi2-3cwn3bmfojjlb56e?size=mc&screen=1024x768&url=https%3A%2F%2Fgreat-mini.mx",
     link: "https://great-mini.mx/",
     id: 7
   },
