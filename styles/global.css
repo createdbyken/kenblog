@@ -70,3 +70,57 @@ img {
   width:100%;
   position:absolute;
 }
+p{
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.tooltip {
+  @apply invisible absolute;
+}
+
+.has-tooltip:hover .tooltip {
+  @apply visible z-50;
+}
+
+/*Backend*/
+.devicon-ruby-plain:hover{
+  color:#e8584c;
+}
+.devicon-rails-plain:hover{
+  color:#a62c46;
+}
+.devicon-python-plain:hover{
+  color: #3571A3;
+}
+.devicon-nodejs-plain:hover{
+  color: #83CD29;
+}
+.devicon-postgresql-plain:hover{
+  color: #336791;
+}
+.devicon-java-plain:hover{
+  color: #E71E24;
+}
+/*frontend*/
+.devicon-html5-plain:hover{
+  color:#f56641;
+}
+.devicon-css3-plain:hover{
+  color:#3d8fc6;
+}
+.devicon-javascript-plain:hover{
+  color: #f0db4f;
+}
+.devicon-react-plain:hover{
+  color: #61DAFB;
+}
+.devicon-gatsby-plain:hover{
+  color: #663399;
+}
+.devicon-sass-original:hover{
+  color: #CC6699;
+}
