@@ -36,7 +36,6 @@ const Post = (props) =>  {
             }
           }
 
-        console.log(props)
     return (
         <Layout>
             <article>
