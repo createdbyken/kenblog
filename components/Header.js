@@ -35,13 +35,13 @@ export default function Header(){
 									</a>
 								</Link>
 								<Link href="/blog">
-									<a className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
+									<a className="text-gray-600 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
 										Blog
 									</a>
 								</Link>
 								
 								<Link href="/contacto">
-									<a className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
+									<a className="text-gray-600 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
 										Contacto
 									</a>
 								</Link>
@@ -61,13 +61,13 @@ export default function Header(){
 						</a>
 					</Link>
 					<Link href="/blog">
-						<a className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
+						<a className="text-gray-600 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
 							Blog
 						</a>
 					</Link>
 					
 					<Link href="/contacto">
-						<a className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
+						<a className="text-gray-600 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
 							Contacto
 						</a>
 					</Link>
