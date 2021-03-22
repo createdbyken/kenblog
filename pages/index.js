@@ -32,9 +32,11 @@ const Index = (props) => {
 												<Link  href="/post/[slug]" as={`/post/${slug.current}`}>
 													<img
 														className="rounded-t-lg cursor-pointer object-fill h-48 w-full" 
-														alt={mainImage}
+														alt={urlFor(mainImage)}
 														src={urlFor(mainImage)
-														.dpr(1)
+														.height(500)
+														.width(800)
+														.dpr(3)
 														.url()}
 													/>
 												</Link>
