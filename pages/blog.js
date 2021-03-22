@@ -34,11 +34,11 @@ const Blog = (props) => {
                                         <div>
                                             <Link  href="/post/[slug]" as={`/post/${slug.current}`}>
                                                 <img
-                                                    className="rounded-t-lg cursor-pointer object-fill h-48 w-full" 
-                                                    alt={urlFor(mainImage)}
+                                                    className="rounded-t-lg cursor-pointer object-fill h-48 w-full"
+                                                    height={500}
+													width={800}
+                                                    alt={title}
                                                     src={urlFor(mainImage)
-                                                    .height(500)
-                                                    .width(800)
                                                     .dpr(1)
                                                     .url()}
                                                 />
