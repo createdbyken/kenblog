@@ -41,7 +41,7 @@ const Post = (props) =>  {
             <article>
                 <div className={styles.container}>
                     <figure>
-                        <img src={urlFor(mainImage).url()} />
+                        <img alt={title} src={urlFor(mainImage).url()} />
                     </figure>
                     <h1 className={utilStyles.headingXl}>{title}</h1>
                     {categories && (
@@ -81,7 +81,7 @@ const Post = (props) =>  {
                             <div className="text-cyan-600">
                                 <span>Escrito por {name}</span>
                             </div>
-                            <div className="text-gray-500">
+                            <div className="text-blue-700">
                                 Mexican Software Engineer 🇲🇽 💻
                             </div>
                         </figcaption>
