@@ -19,6 +19,9 @@ export default function Skills(){
                                 src="/images/profile.jpeg"
                                 className="md:object-scale-down md:h-96 md:w-96"
                                 alt="ken sanchez "
+                                layout="responsive"
+                                width={300}
+                                height={300}
                             />
                         </div>
                     </div>
