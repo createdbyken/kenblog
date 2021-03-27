@@ -1,30 +1,28 @@
 import Head from 'next/head'
+import { NextSeo } from 'next-seo';
 
 export const siteTitle = 'Ken Sanchez | Senior Backend Developer '
-export default function Layout({ children }) {
+export default function Layout({ 
+  title = undefined,
+  description = undefined,
+  canonical = 'https://kingtide.com',
+  children }) {
+  
   return (
     <>
       <Head>
-        <title>{siteTitle}</title>
+        <link rel="icon" href="/favicon.svg" />
         <link rel="icon" href="/favicon.ico" />
-        <link
-          rel="stylesheet"
-          href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.8.0/devicon.min.css"
-        />
-        <meta
-          name="description"
-          content="Ken Sanchez | Ruby on Rails Full Stack Developer"
-        />
-        <meta
-          property="og:image"
-          content={`https://og-image.now.sh/${encodeURI(
-            siteTitle
-          )}.png?theme=light&md=0&fontSize=75px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fnextjs-black-logo.svg`}
-        />
-        <meta name="og:title" content={siteTitle} />
-        <meta name="twitter:card" content="summary_large_image" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+        <link rel="manifest" href="/site.webmanifest" />
+        <meta name="msapplication-TileColor" content="#201e1e" />
+        <meta name="theme-color" content="#ffffff" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.8.0/devicon.min.css" />
       </Head>
 
+      <NextSeo title={title} description={description} canonical={canonical} />
       <main>{children}</main>
     </>
   )
