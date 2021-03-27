@@ -34,9 +34,12 @@ const Blog = (props) => {
                                         <div>
                                             <Link  href="/post/[slug]" as={`/post/${slug.current}`}>
                                                 <img
-                                                    className="rounded-t-lg cursor-pointer object-fill h-48 w-full" 
-                                                    alt={mainImage}
+                                                    className="rounded-t-lg cursor-pointer object-fill h-48 w-full"
+                                                    height={500}
+													width={800}
+                                                    alt={title}
                                                     src={urlFor(mainImage)
+                                                    .dpr(1)
                                                     .url()}
                                                 />
                                             </Link>
@@ -45,7 +48,7 @@ const Blog = (props) => {
 
                                     <div className="px-6 py-4 text-justify">
                                         <Link  href="/post/[slug]" as={`/post/${slug.current}`}>
-                                            <div className="font-bold text-xl mb-2"><a className="text-xl antialiased text-gray-700 cursor-default">{title}</a></div>
+                                            <div className="font-bold text-xl mb-2 antialiased text-gray-700 no-underline hover:underline cursor-default">{title}</div>
                                         </Link>{' '}
                                         <p className="text-gray-700 text-base">
                                             <small className="antialiased text-gray-600">

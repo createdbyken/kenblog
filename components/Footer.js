@@ -26,7 +26,7 @@ export default function Footer(){
                 target="_blank"
                 rel="noopener"
             >
-                <img style={{height: "20px"}} src="https://res.cloudinary.com/craftwebs/image/upload/v1609704913/instagram-crl_kdfjsy.svg" alt="instagram"></img>
+                <img src="https://res.cloudinary.com/craftwebs/image/upload/v1609704913/instagram-crl_kdfjsy.svg" alt="instagram" height={20} width={20}></img>
             </a>
             <a
                 href="https://twitter.com/us3rGuy"
