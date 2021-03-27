@@ -3,7 +3,7 @@ const titleTemplate = 'Ken Sanchez | %s';
 const description =
   'Mi pasión es ayudar a startups a crear plataformas web escalables con arquitectura solidas.';
 
-const canonical = 'https://kenblog.netlify.app/';
+// const canonical = 'https://kenblog.netlify.app/';
 
 const thumbnail = 'https://res.cloudinary.com/craftwebs/image/upload/v1577304588/temrinal_jn42nr.png';
 
@@ -15,7 +15,7 @@ export default {
   openGraph: {
     type: 'website',
     locale: 'es_MX',
-    url: canonical,
+    // url: canonical,
     site_name: description,
     images: [
       {

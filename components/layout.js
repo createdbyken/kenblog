@@ -5,7 +5,6 @@ export const siteTitle = 'Ken Sanchez | Senior Backend Developer '
 export default function Layout({ 
   title = undefined,
   description = undefined,
-  canonical = 'https://kenblog.netlify.app/',
   children }) {
   
   return (
@@ -20,7 +19,7 @@ export default function Layout({
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.8.0/devicon.min.css" />
       </Head>
 
-      <NextSeo title={title} description={description} canonical={canonical} />
+      <NextSeo title={title} description={description} />
       <main>{children}</main>
     </>
   )
