@@ -11,11 +11,9 @@ export default {
   title,
   titleTemplate,
   description,
-  canonical,
   openGraph: {
     type: 'website',
     locale: 'es_MX',
-    // url: canonical,
     site_name: description,
     images: [
       {
