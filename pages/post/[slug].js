@@ -1,15 +1,13 @@
 import groq from 'groq'
 import imageUrlBuilder from '@sanity/image-url'
 import BlockContent from '@sanity/block-content-to-react'
+import Image from 'next/image';
 import client from '../../client'
 import Layout from '../../components/layout'
 import utilStyles from '../../styles/utils.module.css'
 import styles from '../../components/layout.module.css'
 import SyntaxHighlighter from 'react-syntax-highlighter';
 import { atomOneDarkReasonable } from 'react-syntax-highlighter/dist/cjs/styles/hljs';
-
-
-
 
 
 function urlFor (source) {
@@ -25,14 +23,13 @@ const Post = (props) =>  {
             mainImage,
             body = []
         } = props
-
         const serializers = {
             types: {
-              code: props => (
-                <SyntaxHighlighter data-language={props.node.language}  style={atomOneDarkReasonable}>
-                  {props.node.code}
-                </SyntaxHighlighter>
-              )
+                code: props => (
+                    <SyntaxHighlighter data-language={props.node.language}  style={atomOneDarkReasonable}>
+                    {props.node.code}
+                    </SyntaxHighlighter>
+                )
             }
           }
 
