@@ -13,6 +13,7 @@ body {
   font-size: 18px;
 }
 
+
 * {
   box-sizing: border-box;
 }
@@ -107,13 +108,13 @@ p{
 }
 /*frontend*/
 .devicon-html5-plain:hover{
-  color:#f56641;
+  color:#D8683A;
 }
 .devicon-css3-plain:hover{
-  color:#3d8fc6;
+  color:#2862E9;
 }
 .devicon-javascript-plain:hover{
-  color: #f0db4f;
+  color: #E9B924;
 }
 .devicon-react-plain:hover{
   color: #61DAFB;
@@ -123,4 +124,19 @@ p{
 }
 .devicon-sass-original:hover{
   color: #CC6699;
+}
+
+@layer base {
+  h1 {
+    @apply text-2xl;
+  }
+  h2 {
+    @apply text-xl;
+  }
+  h3 {
+    @apply text-lg;
+  }
+  a {
+    @apply text-blue-600 underline;
+  }
 }
