@@ -32,16 +32,34 @@ export default function Skills(){
                 <section className="lg:container mx-auto">
                     <div className="flex items-center flex-wrap min-w-full bg-white">
                         <div className="w-full md:w-1/2 px-4">
-                            <p className="text-7xl md:text-8xl lg:text-9xl mb-3 mt-10 trns_text_blk ">
+                            <p className="text-7xl md:text-8xl lg:text-9xl mb-3 mt-10 trns_text_blk md:ml-9">
                                 BACK<br />END
                             </p>
-                            <div className="grid grid-cols-3 lg:grid-cols-3 gap-3 mt-10 mb-10">
-                            <div><i className="devicon-ruby-plain devIconStyleBlk"></i></div>
-                                <div><i className="devicon-python-plain devIconStyleBlk"></i></div>
-                                <div><i className="devicon-rails-plain devIconStyleBlk"></i></div>
-                                <div><i className="devicon-postgresql-plain devIconStyleBlk"></i></div>
-                                <div><i className="devicon-nodejs-plain devIconStyleBlk"></i></div>
-                                <div><i className="devicon-java-plain devIconStyleBlk"></i></div>
+                            <div className="grid grid-cols-3 lg:grid-cols-3 gap-3 mt-10 mb-10 text-center">
+                                <div>
+                                    <i className="devicon-ruby-plain devIconStyleBlk"></i>
+                                    <small className="block text-center py-1"> Ruby</small>
+                                </div>
+                                <div>
+                                    <i className="devicon-python-plain devIconStyleBlk"></i>
+                                    <small className="block text-center py-1 ">Python</small>
+                                </div>
+                                <div>
+                                    <i className="devicon-rails-plain devIconStyleBlk"></i>
+                                    <small className="block text-center py-1 ">Ruby on Rails</small>
+                                </div>
+                                <div>
+                                    <i className="devicon-postgresql-plain devIconStyleBlk"></i>
+                                    <small className="block text-center py-1 "> PostgreSQL</small>
+                                </div>
+                                <div>
+                                    <i className="devicon-nodejs-plain devIconStyleBlk"></i>
+                                    <small className="block text-center py-1 ">Node.js</small>
+                                </div>
+                                <div>
+                                    <i className="devicon-java-plain devIconStyleBlk"></i>
+                                    <small className="block text-center py-1 ">Java</small>
+                                </div>
                             </div>
                         </div>
                         <div className="w-full md:w-1/2 px-6">
@@ -62,16 +80,34 @@ export default function Skills(){
                             </p>
                         </div>
                         <div className="w-full md:w-1/2 md:order-last px-4">
-                            <p className="text-7xl md:text-8xl lg:text-9xl mb-3 mt-10 trns_text_wht ">
+                            <p className="text-7xl md:text-8xl lg:text-9xl mb-3 mt-10 trns_text_wht md:ml-16">
                                 FRONT<br />END
                             </p>
-                            <div className="grid grid-cols-3 lg:grid-cols-3 gap-3 mt-10 mb-10">
-                                <div><i className="devicon-html5-plain devIconStyleWht"></i></div>
-                                <div><i className="devicon-css3-plain devIconStyleWht"></i></div>
-                                <div><i className="devicon-javascript-plain devIconStyleWht"></i></div>
-                                <div><i className="devicon-react-plain devIconStyleWht"></i></div>
-                                <div><i className="devicon-gatsby-plain devIconStyleWht"></i></div>
-                                <div><i className="devicon-sass-original devIconStyleWht"></i></div>
+                            <div className="grid grid-cols-3 lg:grid-cols-3 gap-3 mt-10 mb-10 text-center">
+                                <div>
+                                    <i className="devicon-html5-plain devIconStyleWht"></i>
+                                    <small className="block text-white text-center py-1">HTML5</small>
+                                </div>
+                                <div>
+                                    <i className="devicon-css3-plain devIconStyleWht"></i>
+                                    <small className="block text-white text-center py-1">CSS3</small>
+                                </div>
+                                <div>
+                                    <i className="devicon-javascript-plain devIconStyleWht"></i>
+                                    <small className="block text-white text-center py-1">Javascript</small>
+                                </div>
+                                <div>
+                                    <i className="devicon-react-plain devIconStyleWht"></i>
+                                    <small className="block text-white text-center py-1">React.js</small>
+                                </div>
+                                <div>
+                                    <i className="devicon-gatsby-plain devIconStyleWht"></i>
+                                    <small className="block text-white text-center py-1">Gatsby</small>
+                                </div>
+                                <div>
+                                    <i className="devicon-sass-original devIconStyleWht"></i>
+                                    <small className="block text-white text-center py-1">SASS</small>
+                                </div>
                             </div>
                         </div>
                     </div>
